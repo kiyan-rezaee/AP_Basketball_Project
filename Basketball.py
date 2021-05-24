@@ -24,7 +24,7 @@ def blur_pic(surface, amount):
     return surf
 
 
-def reset_menu(): 
+def reset_menu():  # vase reset hame var ha
     global Text_Hello, Text_Box_1, Text_Box_2, Font, input_boxes, menu_key, solo_key, Style, multi_key, multi_key2, Difficulty, menu_done, name1_key, name2_key, Mode, Style2, goals, scores, time, Player_frame, Event, mouse_click, mouse_ready, mouse_ball_num, goal_solo_p, goal_solo_p1, mouse_ball_i, ball_animation_frame
     Text_Hello = Font.render(f'Hello There!', True, (255, 255, 255))
     Text_Box_1 = Font.render(f'', True, (255, 255, 255))
